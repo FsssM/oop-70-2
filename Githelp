@@ -12,3 +12,33 @@
 6) git add .       | Добавление     файлов в буфер обмена
 7) git commit -m "message" | сохранение всего из буфера обмена
 8) git push origin master   | Отправка изменений в репозитории
+9) git restore . или путь к файлу указать | Для отката изменений
+10) git reset . или путь к файлу указать  | Для того что бы вытащить после git add .
+11) git branch name_branch    | Создание ветки
+12) git push origin master  name_branch    | Переключение на ветку
+    git checkout name_branch
+13) git switch -c name_branch | Создать и сразу переключится на новую ветку
+    git checkout -b name_branch
+14) git reset --mixed HEAD~1  | Удаление последнего комита
+
+
+production-main       | стабильный, исправный код который используется пользователями
+
+relese-1.0.0.3
+
+stage - test    | Код для тестирования
+
+develop         | Код для разрабов
+
+feat/register_telegram
+
+"feat: added new logik for register telegram "
+"update: update logik register"
+"fix: fixed register file register.py def register line 123"
+
+
+Новые команды
+
+Я ветка главная !!!
+
+смотрим пулл реквест в гите
